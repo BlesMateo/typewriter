@@ -4,7 +4,7 @@ let typeWriter = function() {
   let count = 0;
   for (const char of sentence) {
     count = count + 1; //increment value of count by 1
-    timer = timer + 50; // 'I' = 0 ms, 'r' = 50 ms // timer increments by 50 ms
+    timer = timer + 50; // timer increments by 50 ms
     setTimeout(() => {
     process.stdout.write(char);
     }, timer);
